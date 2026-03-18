@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: Mi API limpia
+  version: 1.0.0
+  description: Documentación separada del código
+
+paths:
+  /users:
+    get:
+      summary: Obtener usuarios
+      description: Retorna todos los usuarios
+      responses:
+        '200':
+          description: OK
